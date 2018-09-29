@@ -2,8 +2,8 @@ var React = require('react');
 var Nav = require('Nav');
 
 var Main = React.createClass({
-  render: function(){
-    return(
+  render: function () {
+    return (
       <div>
         <Nav/>
         <h2>Main Component</h2>

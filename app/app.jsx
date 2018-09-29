@@ -1,7 +1,5 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-
-// Desturcturing Syntax
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 var Weather = require('Weather');
