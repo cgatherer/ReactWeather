@@ -1,13 +1,5 @@
 var React = require('react');
 
-// var About = React.createClass({
-//   render: function () {
-//     return (
-//       <h3>About Component</h3>
-//     )
-//   }
-// });
-
 var About = (props) => {
   return (
     <div>
@@ -18,10 +10,10 @@ var About = (props) => {
       </p>
       <ul>
         <li>
-          <a href="https://facebook.github.io/react">React</a> - This was the Javascript framework used.
+          <a href="https://facebook.github.io/react" target="_blank">React</a> - This was the Javascript framework used.
         </li>
         <li>
-          <a href="https://openweathermap.org">Open Weather Map</a> - I used Open Weather Map to search for weather data by weather name.
+          <a href="https://openweathermap.org" target="_blank">Open Weather Map</a> - I used Open Weather Map to search for weather data by weather name.
         </li>
       </ul>
     </div>
