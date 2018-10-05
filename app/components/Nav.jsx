@@ -9,11 +9,6 @@ var Nav = React.createClass({
   render: function () {
     return (
       <div>
-        {/* <div className="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
-          <button className="menu-icon" type="button" data-toggle="main-menu"></button>
-          <div className="title-bar-title">Menu</div>
-        </div> */}
-
         <div className="top-bar" id="main-menu">
           <div className="top-bar-left">
             <ul className="menu">
