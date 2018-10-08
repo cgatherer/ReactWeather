@@ -1,0 +1,23 @@
+$space-large: 2.5rem;
+$title-color: #555;
+$col-width: 400px;
+
+.page-title {
+  color: $title-color;
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+}
+
+input[type=search] {
+  box-shadow: none;
+}
+
+.col-width {
+  max-width: $col-width;
+  margin: 0 auto;
+}
+
+.inline {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
